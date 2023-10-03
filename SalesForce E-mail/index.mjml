@@ -1,0 +1,261 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-image padding="0" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+      .gradient-footer {
+   background: linear-gradient(to bottom, #FFFFFF, lightgrey );
+}
+    </mj-style>
+    <mj-style inline="inline">
+
+
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="white">
+    <mj-hero background-width="600px" background-height="300px">
+      <mj-image src="assets/sales.png" alt="Header Image" />
+    </mj-hero>
+
+    <mj-raw>
+      <!-- Section 1 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column css-class="text-column">
+          <mj-text>
+            <div class="center-text" style="font-size: 18px; font-weight: bold;">
+              <a href="https://Salesforce.com" style="text-decoration: none; color: #3d6989;">Road to Dreamforce Quest</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="grey">
+            <div class="center-text" style="line-height: 1.2;"> Get the tools you need to succeed and get the most out of your Dreamforce 2023 experience.</div>
+          </mj-text>
+
+          <mj-button align="left" background-color="#3d6989" color="white" href="https://Salesforce.com">
+            <div class="centered-text" style="font-size: 14px;">
+              QUEST ON!
+            </div>
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-image href="Jumping Mascot" src="assets/Picture1.png" height="210px" width="210px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Section 2 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column>
+          <mj-image href="Jumping Mascot" src="assets/Picture2.png" height="210px" width="210px" />
+        </mj-column>
+
+        <mj-column css-class="text-column">
+          <mj-text>
+            <div class="center-text" style="font-size: 18px; font-weight: bold;">
+              <a href="https://Salesforce.com" style="text-decoration: none; color: #3d6989;">You. Trackside.</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="grey">
+            <div class="center-text" style="line-height: 1.2;"> Enter for your chance to win an F1® Grand Prix™ experience at the grand prix in Las Vegas, NV and Austin, TX.</div>
+          </mj-text>
+
+          <mj-button align="left" background-color="#3d6989" color="white" href="https://Salesforce.com">
+            <div class="centered-text" style="font-size: 14px;">
+              ENTER NOW
+            </div>
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Section 3 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column css-class="text-column">
+          <mj-text>
+            <div class="center-text" style="font-size: 18px; font-weight: bold;">
+              <a href="https://Salesforce.com" style="text-decoration: none; color: #3d6989;">Unlock Career Growth</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="grey">
+            <div class="center-text" style="line-height: 1.2;"> Have you tried the best way to practice, gain experience, and apply your new skills?</div>
+          </mj-text>
+
+          <mj-button align="left" background-color="#3d6989" color="white" href="https://Salesforce.com">
+            <div class="centered-text" style="font-size: 14px;">
+              QUEST ON!
+            </div>
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-image href="Jumping Mascot" src="assets/Picture3.png" height="210px" width="210px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Section 4 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column>
+          <mj-image href="Jumping Mascot" src="assets/Picture4.png" height="210px" width="210px" />
+        </mj-column>
+
+        <mj-column css-class="text-column">
+          <mj-text>
+            <div class="center-text" style="font-size: 18px; font-weight: bold;">
+              <a href="https://Salesforce.com" style="text-decoration: none; color: #3d6989;">Free Community Events</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="grey">
+            <div class="center-text" style="line-height: 1.2;">Join a free event to explore AI and how to navigate the AI landscape with confidence.</div>
+          </mj-text>
+
+          <mj-button align="left" background-color="#3d6989" color="white" href="https://Salesforce.com">
+            <div class="centered-text" style="font-size: 14px;">
+              ENTER NOW
+            </div>
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- 3 Icons + Badges Button -->
+    </mj-raw>
+
+    <mj-wrapper padding="20px 20px 20px 20px">
+      <mj-section background-color="lightgrey" padding-bottom="0px" border-radius="10px">
+        <mj-column width="33.33%">
+          <mj-image src="assets/IconAboveFooter1.png" alt="Image 1" width="100px" />
+          <mj-text align="center" padding="20px">
+            Dreamforce Ready 2022</mj-text>
+        </mj-column>
+        <mj-column width="33.33%">
+          <mj-image src="assets/IconAboveFooter2.png" alt="Image 2" width="100px" />
+          <mj-text align="center" padding="20px">
+            Accessible Hiring Policies</mj-text>
+        </mj-column>
+        <mj-column width="33.33%">
+          <mj-image src="assets/IconAboveFooter3.png" alt="Image 3" width="100px" />
+          <mj-text align="center" padding="20px">
+            Guidelines to Charts
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="white" padding-top="0">
+      <mj-column>
+        <mj-button align="center" background-color="#3d6989" color="white" href="https://Salesforce.com">
+          <div class="centered-text" style="font-size: 14px;">
+            NEW TRAILHEADER BADGES
+          </div>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!--App Stores -->
+    </mj-raw>
+
+    <mj-section css-class="gradient-footer" padding="0" >
+      <mj-column>
+        <mj-text align="center" padding="20px">
+          Download the Trailhead GO mobile app
+        </mj-text>
+    </mj-section>
+
+    <mj-section padding="0" background-color="lightgrey">
+      <mj-group>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" align="right" href="https://apple.com" src="assets/BtnAppStore.png" width="120px" height="40px" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" align="left" href="https://apple.com" src="assets/BtnGooglePlay.png" width="120px" height="40px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer Socials -->
+    </mj-raw>
+
+    <mj-section background-color="lightgrey" padding-bottom="0" padding-top="5px">
+      <mj-column>
+        <mj-social font-size="20px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/yourpage"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/yourpage"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/yourpage"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="lightgrey" padding="0">
+      <mj-column>
+        <mj-divider border-color="darkgrey" border-width="1px" border-style="solid" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="lightgrey" padding="0px">
+      <mj-column padding="0">
+        <mj-text font-size="10px" align="center">
+          &copy; *No purchase necessary. Void where prohibited. Country of residence and other restrictions apply. <a href="https://salesforce.com" style="text-decoration: underline;">See the Trailhead</a> page for full details and restrictions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="lightgrey" padding="0px">
+      <mj-column padding="0">
+        <mj-text font-size="10px" align="center">
+          &copy; **No purchase necessary. Void where prohibited. Program Period runs from 03/01/22 9:00am to 10/15/22 11:59pm PT. See Sweep Entry Periods in Rules. Open to legal residents of the U.S. (incl. D.C.), Canada (excl. Quebec), Ireland, NZ and UK. Must be 21+.<a href="https://salesforce.com" style="text-decoration: underline;">See Official Rules.</a> restrictions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="lightgrey" padding="0">
+      <mj-column>
+        <mj-divider border-color="darkgrey" border-width="1px" border-style="solid" width="50px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="lightgrey" padding="0px 0 60px">
+      <mj-column padding="0">
+        <mj-text font-size="10px" align="center">
+          <a href="#" class="footer-links">Unsubscribe</a> | <a href="#" class="footer-links">Manage Your Email Preferences</a>
+        </mj-text>
+        <mj-text font-size="10px" color="#777" align="center">
+          &copy; 2029 Salesforce, Inc. All rights reserved.<br />
+          Salesforce Tower, 415 Mission Street, 3rd Floor,<br />
+          San Francisco, CA 94105, United States<br />
+          General Inquiries: <a href="tel:415-901-7000">415-901-7000</a><br />
+          This email was sent to: <a href="mailto:example@email.com">example@email.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
