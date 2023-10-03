@@ -1,0 +1,499 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-image padding="0" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @media screen and (max-width: 480px) {
+        .mobile-links a {
+          line-height: 1.9;
+        }
+
+        .here-text p {
+          line-height: 1.3;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        .here-text h1 {
+          line-height: 1.1;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        .doom-text p {
+          padding-right: -20px;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-column p {
+        margin: 3px 0;
+        line-height: 16px;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-raw>
+    <!-- Logo + Clickable Links -->
+  </mj-raw>
+
+  <mj-body background-color="lightgrey">
+    <mj-section css-class="mobile-links" padding="20px 0px 10px" background-color="white">
+      <mj-column>
+        <mj-image src="assets/Etsy_logo.png" alt="Logo" width="70px" padding="0px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text align="center" font-family="Helvetica, Arial" font-size="14px" color="#333333" padding="0px" css-class="mobile-links">
+          <a href="#" style="text-decoration: none; color: #666666; margin-right: 12px;">Home & Living</a>
+          <a href="#" style="text-decoration: none; color: #666666; margin-right: 12px;">Jewelry</a>
+          <a href="#" style="text-decoration: none; color: #666666; margin-right: 12px;">Accessories</a>
+          <a href="#" style="text-decoration: none; color: #666666; margin-right: 12px;">Clothing</a>
+          <a href="#" style="text-decoration: none; color: #666666; margin-right: 12px;">Weddings</a>
+          <a href="#" style="text-decoration: none; color: #666666;">Craft Supplies</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Image, Here it comes! Sign In -->
+    </mj-raw>
+
+    <mj-section padding="0" background-color="white">
+      <mj-column>
+        <mj-image src="assets/stars.png" alt="Your Image" width="600px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="white">
+      <mj-column>
+        <mj-text css-class="here-text" align="center" font-family="Helvetica, Arial" color="#333333" padding="0px 0px 0px 0px">
+          <h1 style="font-size: 24px; margin-top: 5px;">Here it comes! Your order has been shipped.</h1>
+          <p style="font-size: 14px;">Sign in with Apple user,<a href="https://example.com" style="color: #666666;"> Bobby McGee</a> has shipped your order!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- 3 Dots & Text -->
+    </mj-raw>
+
+    <mj-section padding="10px 10px 10px" background-color="white">
+      <mj-column>
+        <mj-image src="assets/3dots.png" alt="Your Image" width="300px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px" background-color="white">
+      <mj-group>
+        <mj-column>
+          <mj-text padding="0px" font-family="Helvetica, Arial" color="#333333" css-class="text-column" align="center">
+            <p>Ordered</p>
+            <p>on Sep 2</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text padding="0" font-family="Helvetica, Arial" color="#333333" css-class="text-column" align="center">
+            <p>Shipped</p>
+            <p>on Sep 2</p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text padding="0" font-family="Helvetica, Arial" color="#333333" css-class="text-column" align="center">
+            <p>Expected </p>
+            <p>Sep 2-10</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Track Package Button & Text -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-button background-color="black" font-size="16px" color="white" border-radius="20px" padding-bottom="0" padding-top="20px" href="https://Etsy.com" font-family="Helvetica, Arial">
+          Track Package
+        </mj-button>
+        <mj-text css-class="here-text" align="center" padding-left="20px" padding-right="20px" line-height="20px" padding="0" font-family="Helvetica, Arial">
+          <p> Delivery times are estimated. If you're experiencing difficulty with this order, please
+            <a href="https://Etsy.com" style="color: #000000; font-family: Helvetica, Arial;">contact the seller.</a> See
+            <a href="https://Etsy.com" style="color: #000000; font-family: Helvetica, Arial;">more info.</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="15px 0 0">
+      <mj-column>
+        <mj-divider border-color="#333" border-width="1px" border-style="solid" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Order Details Confirm #-->
+    </mj-raw>
+
+    <mj-section padding="0" background-color="white">
+      <mj-column>
+        <mj-text align="center" padding="0px">
+          <h1 style="font-family: Helvetica, Arial; margin-bottom: 10px;">Order Details</h1>
+        </mj-text>
+        <mj-text align="center" padding="0">
+          <p style="font-family: Helvetica, Arial; margin-top: 3px; margin-bottom: 5px;">
+            Confirmation number:
+            <a href="https://example.com" style="color: black;">298176534</a>.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Product Image, Product Text -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column width="33%">
+          <mj-image src="assets/Doom.png" alt="Image" width="100px" padding-top="14px" />
+        </mj-column>
+        <mj-column width="63%">
+          <mj-text padding="0" line-height="10px">
+            <p style="text-align: left; font-family: Helvetica, Arial; font-size: 14px; position: relative;">
+              <span style="text-decoration: underline;">Mf Dr Doom 3x3in</span>
+              <strong>
+                <span style="font-weight: bold; position: absolute; right: 20px;">23.00</span>
+              </strong>
+            </p>
+            <p style="text-align: left; font-family: Helvetica, Arial;">Transaction ID: 3702385531</p>
+            <p style="text-align: left; font-family: Helvetica, Arial;">Quantity: 1</p>
+            <p style="text-align: left; font-family: Helvetica, Arial; line-height: 15px;">Returns and exchanges accepted within 30 days of delivery</p>
+          </mj-text>
+        </mj-column>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- View Receipt Button + Break -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column padding="0">
+        <mj-button background-color="black" font-size="16px" color="white" border-radius="20px" padding="0" href="https://Etsy.com" font-family="Helvetica, Arial">
+          View receipt
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="15px 0 0">
+      <mj-column>
+        <mj-divider border-color="#333" border-width="1px" border-style="solid" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Shipping From, Shipping To Section -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-text padding="0 0 0 50px" line-height="10px">
+          <p style="text-align: left; font-family: Helvetica, Arial; font-weight: bold;">Shipping From</p>
+
+          <p style="text-align: left; font-family: Helvetica, Arial; font-size: 14px; position: relative;">
+            <a href="https://HenHousePins.com" style="color: black;">
+              <span style="text-decoration: underline;">HenHousePins</span>
+            </a>
+          </p>
+          <p style="text-align: left; font-family: Helvetica, Arial;">LOS ANGELES, CA</p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text padding="0px 0px 0px 50px" line-height="10px">
+          <p style="text-align: left; font-family: Helvetica, Arial; font-weight: bold;">Shipping To</p>
+          <p style="text-align: left; font-family: Helvetica, Arial;">Bobby McGee</p>
+          <p style="text-align: left; font-family: Helvetica, Arial;">123 Fake Drive</p>
+          <p style="text-align: left; font-family: Helvetica, Arial;">LOS ANGELES, CA 90675</p>
+          <p style="text-align: left; font-family: Helvetica, Arial;">United States</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Shipping From Footer, Shipping To Footer ,Break -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="10px">
+      <mj-column>
+        <mj-text css-class="here-text" align="center" padding-left="20px" padding-right="20px" line-height="8px" padding="0" font-family="Helvetica, Arial">
+          <p> This item was part of a purchase from multiple shops </p>
+          <p>
+            <a href="https://Etsy.com" style="color: #000000; font-family: Helvetica, Arial;">View Purchase history</a>
+          </p>
+          <p style="font-family: Helvetica, Arial; font-size: 11px; color: #000000; padding: 0 20px; line-height: 1.5;">
+            Carbon offset leaf icon Etsy offsets carbon emissions from every delivery
+          </p>
+        </mj-text>
+        <mj-divider border-color="#333" border-width="1px" border-style="solid" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Pettsy's Purchase Protection Program Section -->
+    </mj-raw>
+
+    <mj-wrapper padding="20px" background-color="white">
+      <mj-section padding="10px 0px" background-color="#CEE8FF" border-radius="10px">
+        <mj-group>
+          <mj-column width="33%">
+            <mj-image src="assets/Hands.png" alt="Hands Logo" width="50px" padding-top="20px" padding-left="30px" />
+          </mj-column>
+          <mj-column width="50%">
+            <mj-text padding="0px">
+              <p style="font-weight: bold; font-family: Helvetica, Arial; font-size: 14px;">Etsy's Purchase Protection Program</p>
+              <p style="font-family: Helvetica, Arial; line-height: 1.3">This purchase is eligible for Etsy’s Purchase Protection program. You’ll get a full refund if your item doesn’t arrive, arrives damaged, or isn’t as described.</p>
+              <p>
+                <a href="https://Etsy.com" style="color: black; text-decoration: underline; font-family: Helvetica, Arial, sans-serif;">Learn more</a>
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-raw>
+      <!-- Shop Info Seciton -->
+    </mj-raw>
+
+    <mj-section padding="40px 0px 10px 0px" background-color="white">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" font-family="Helvetica, Arial, sans-serif" align="center">
+          Shop Information
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="0px 20px" background-color="white">
+      <mj-section background-color="#FFEBCD" border-radius="10px">
+        <mj-column width="25%">
+          <mj-image css-class="center-on-mobile" src="assets/about.jpg" alt="HenHouse Logo" width="100px" />
+        </mj-column>
+        <mj-column width="27%">
+
+          <mj-text align="center" padding="0px" line-height="16px">
+            <p style=" font-family: Helvetica, Arial; font-size: 14px; position: relative;">
+              <span style="text-decoration: underline; font-weight: bold;">HenHouse</span>
+            </p>
+            <p style=" font-family: Helvetica, Arial;">Owner of HenHousePins</p>
+          </mj-text>
+          <mj-image css-class="stars" src="assets/5stars.png" alt="Middle Image" width="90px" />
+        </mj-column>
+
+        <mj-column width="39%" padding="23px">
+          <mj-button background-color="black" font-size="16px" color="white" border-radius="20px" padding="0" href="https://Etsy.com" font-family="Helvetica, Arial">
+            Help with order
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-raw>
+      <!-- You Might Like These Section-->
+    </mj-raw>
+
+    <mj-section padding="20px 0px 0 0px" background-color="white">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" font-family="Helvetica, Arial, sans-serif" align="center">
+          You might like these too.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column width="33%">
+          <mj-image src="assets/mushroomgirl.png" width="100px" alt="Shirt" />
+          <mj-text font-family="Helvetica, Arial" line-height="5px" padding="0px">
+            <div style="text-align: center;">
+              <p>Mushroom Girl</p>
+              <p style="margin-left: -45px;">$29.99</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33%">
+          <mj-image src="assets/mushroomgirl.png" width="100px" alt="Shirt" />
+          <mj-text font-family="Helvetica, Arial" line-height="5px" padding="0px">
+            <div style="text-align: center;">
+              <p>Mushroom Girl</p>
+              <p style="margin-left: -45px;">$29.99</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33%">
+          <mj-image src="assets/mushroomgirl.png" width="100px" alt="Shirt" />
+          <mj-text font-family="Helvetica, Arial" line-height="5px" padding="0px">
+            <div style="text-align: center;">
+              <p>Mushroom Girl</p>
+              <p style="margin-left: -45px;">$29.99</p>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column width="33%">
+          <mj-image src="assets/mushroomgirl.png" width="100px" alt="Shirt" />
+          <mj-text font-family="Helvetica, Arial" line-height="5px" padding="0px">
+            <div style="text-align: center;">
+              <p>Mushroom Girl</p>
+              <p style="margin-left: -45px;">$29.99</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33%">
+          <mj-image src="assets/mushroomgirl.png" width="100px" alt="Shirt" />
+          <mj-text font-family="Helvetica, Arial" line-height="5px" padding="0px">
+            <div style="text-align: center;">
+              <p>Mushroom Girl</p>
+              <p style="margin-left: -45px;">$29.99</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33%">
+          <mj-image src="assets/mushroomgirl.png" width="100px" alt="Shirt" />
+          <mj-text font-family="Helvetica, Arial" line-height="5px" padding="0px">
+            <div style="text-align: center;">
+              <p>Mushroom Girl</p>
+              <p style="margin-left: -45px;">$29.99</p>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Free Shipping? Ohh Yeah Section-->
+    </mj-raw>
+
+    <mj-wrapper padding="20px" background-color="white">
+      <mj-section padding="30px 10px" background-color="#CEE8FF" border-radius="10px">
+        <mj-column>
+          <mj-text css-class="here-text" align="center" font-family="Helvetica, Arial" color="#333333" padding="0px">
+            <h1 style="font-size: 24px; margin-top: 5px;">Free shipping? Ooh yeah!</h1>
+            <p style="font-size: 14px;">
+              How about a little something extra? Free shipping! Get it on your next order.</p>
+          </mj-text>
+          <mj-button background-color="black" font-size="16px" color="white" border-radius="20px" padding="0" href="https://Etsy.com" font-family="Helvetica, Arial">
+            Shop now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-raw>
+      <!-- Have Questions? Section-->
+    </mj-raw>
+
+    <mj-section padding="15px 0px" background-color="white">
+      <mj-column>
+        <mj-text css-class="here-text" align="center" font-family="Helvetica, Arial" color="#333333" padding="0px 0px 0px 0px">
+          <h1 style="font-size: 24px; margin-top: 5px;">Have Questions?</h1>
+          <p style="font-size: 14px; padding: 0 50px;">
+            Learn more about,<a href="https://example.com" style="color: black;"> how Petsy can help</a> if something goes wrong.
+          </p>
+          <p style="font-size: 12px; padding: 0 50px;">
+            If you received this email in error<a href="https://example.com" style="color: black;"> click here.</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Logo App Download buton Section-->
+    </mj-raw>
+
+    <mj-wrapper padding="15px 20px" background-color="white">
+      <mj-section padding="0px 10px" background-color="#FFEBCD" border-radius="10px">
+        <mj-group>
+          <mj-column width="33%">
+            <mj-image src="assets/Hands.png" alt="Hands Logo" width="50px" padding-top="20px" padding-left="30px" />
+          </mj-column>
+          <mj-column width="50%">
+            <mj-text padding="0px">
+              <p style="font-family: Helvetica, Arial; line-height: 1.3">Find the things you love faster than ever before in the pets app!</p>
+              <p>
+                <span style="font-size: 14px; color: black; font-family: Helvetica, Arial, sans-serif;">
+                  <!-- Right arrow HTML entity -->
+                  <a href="https://Etsy.com" style="color: black; text-decoration: underline;">Download now</a> &#8594;
+                </span>
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-raw>
+      <!-- Footer Socials -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding-bottom="0" padding-top="5px">
+      <mj-column>
+        <mj-social font-size="20px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/yourpage"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/yourpage"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/yourpage"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0px 10px 0" background-color="white">
+      <mj-group>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" align="right" href="https://apple.com" src="assets/BtnAppStore.png" width="120px" height="40px" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" align="left" href="https://apple.com" src="assets/BtnGooglePlay.png" width="120px" height="40px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-divider border-color="darkgrey" border-width="1px" border-style="solid" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0px">
+      <mj-column padding="0">
+        <mj-text font-size="10px" align="center">
+          &copy; *No purchase necessary. Void where prohibited. Country of residence and other restrictions apply. <a href="https://ETSY.com" style="text-decoration: underline;">Petsy</a> page for full details and restrictions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-divider border-color="darkgrey" border-width="1px" border-style="solid" width="50px" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
