@@ -1,0 +1,249 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-image padding="0" />
+      <mj-text padding="0" />
+      <mj-all font-family="Helvetica,Arial" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @media (max-width: 480px) {
+        .mobile-links {
+          padding: 0px !important;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="lightgrey">
+    <mj-raw>
+      <!-- Logo+ Nav Bar -->
+    </mj-raw>
+
+    <mj-section padding="10px 0 0 0" background-color="white">
+      <mj-column width="25%">
+        <mj-image href="https://Vans.com/blog" width="150px" padding-bottom="10px" src="assets/Logo.jpg" />
+      </mj-column>
+
+      <mj-column width="60%">
+        <mj-text align="center" font-family="Helvetica, Arial" font-size="14px" color="#333333" padding="30px 0px 0px 0px" css-class="mobile-links">
+          <a href="#" style="text-decoration: none; color: #000000; font-weight: bold;">MENS</a>
+          <span style="font-weight: bold; color: #000000;">|</span>
+          <a href="#" style="text-decoration: none; color: #000000; font-weight: bold;">WOMENS</a>
+          <span style="font-weight: bold; color: #000000;">|</span>
+          <a href="#" style="text-decoration: none; color: #000000; font-weight: bold;">KIDS</a>
+          <span style="font-weight: bold; color: #000000;">|</span>
+          <a href="#" style="text-decoration: none; color: #000000; font-weight: bold;">FAMILY</a>
+          <span style="font-weight: bold; color: #000000;">|</span>
+          <a href="#" style="text-decoration: none; color: #000000; font-weight: bold;">CUSTOMS</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="3px">
+    </mj-section>
+
+    <mj-raw>
+      <!-- Hero Image -->
+    </mj-raw>
+
+    <mj-section padding="10px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="500px" padding-bottom="0px" src="assets/Hero.gif" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Image 1 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/Shoe1.jpg" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Image 2 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/Shoe2.jpg" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Image 2 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="3px" src="assets/Shoe3.jpg" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- DC 1 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/DC1.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- DC 2 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/DC2.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- DC 3 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/DC3.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- DC 4 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/DC4.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- DC 5 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/DC5.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- DC 6 -->
+    </mj-raw>
+
+    <mj-section padding="0px 0px 0px" background-color="black">
+      <mj-column>
+        <mj-image href="https://Vans.com/blog" width="600px" padding-bottom="0px" src="assets/DC6.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Shop Buttons -->
+    </mj-raw>
+
+    <mj-section background-color="black">
+      <mj-column>
+        <mj-button height="50px" background-color="#ffffff" color="#000000" font-size="16px" href="https://your-halloween-shop-url.com" padding="20px 40px" border-radius="0" font-weight="bold" font-family="Arial, sans-serif">
+          SHOP ALL HALLOWEEN
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="15px 0 5px" background-color="white">
+      <mj-column>
+        <mj-button background-color="black" color="white" font-size="10px" href="https://Vans.com" padding="0" border-radius="0" font-weight="bold" font-family="Arial, sans-serif" width="370px">
+          SHOP ALL HALLOWEEN
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="3px 0 5px" background-color="white">
+      <mj-column>
+        <mj-button background-color="black" color="white" font-size="10px" href="https://Vans.com" padding="0" border-radius="0" font-weight="bold" font-family="Arial, sans-serif" width="340px">
+          WAYS TO SHOP
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="3px 0 5px" background-color="white">
+      <mj-column>
+        <mj-button background-color="black" color="white" font-size="10px" href="https://Vans.com" padding="0" border-radius="0" font-weight="bold" font-family="Arial, sans-serif" width="310px">
+          FAQ
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="3px 0 15px" background-color="white">
+      <mj-column>
+        <mj-button background-color="black" color="white" font-size="10px" href="https://Vans.com" padding="0" border-radius="0" font-weight="bold" font-family="Arial, sans-serif" width="280px">
+          FIND A STORE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Socials -->
+    </mj-raw>
+
+    <mj-section padding="10px" background-color="white">
+      <mj-column>
+        <mj-social padding="0" mode="horizontal" align="center">
+          <mj-social-element name="twitter" href="https://twitter.com/your-twitter-url" background-color="black" color="#FFFFFF" />
+          <mj-social-element name="facebook" href="https://facebook.com/your-facebook-url" background-color="black" color="#FFFFFF" />
+          <mj-social-element name="pinterest" href="https://pinterest.com/your-pinterest-url" background-color="black" color="#FFFFFF" />
+          <mj-social-element name="instagram" href="https://instagram.com/your-instagram-url" background-color="black" color="#FFFFFF" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+
+    <mj-section padding="20px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text align="center" font-size="10px" color="#777777" padding="0 0 10px 0" line-height="12px">
+          You received this message because you previously expressed interest in news and offers from <a href="https://Vans.com" style="color: #0077CC; text-decoration: underline;">Vans.com</a> by supplying this email address. Vans respects your privacy and does not share your personal information with third parties. To <a href="https://unsubscribe-link.com" style="color: grey; text-decoration: underline;">UNSUBSCRIBE</a> from future email correspondence select unsubscribe.
+        </mj-text>
+        <mj-text align="center" font-size="10px" color="#777777" padding="0 0 10px 0" line-height="12px">
+          To <a href="https://update-link.com" style="color: grey; text-decoration: underline;">UPDATE</a> your profile, select update.
+        </mj-text>
+        <mj-text align="center" font-size="10px" color="#777777" padding="0 0 10px 0" line-height="12px">
+          This email was sent by: Vans, Inc.
+        </mj-text>
+        <mj-text align="center" font-size="10px" color="#777777" padding="0 0 10px 0" line-height="12px">
+          1588 South Coast Drive Costa Mesa, CA, 92626, US
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </mj-body>
+</mjml>
