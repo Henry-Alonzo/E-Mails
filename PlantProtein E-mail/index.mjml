@@ -1,0 +1,249 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-image padding="0" />
+      <mj-text padding="0" />
+      <mj-all font-family="Helvetica,Arial" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .responsive-column {
+          width: 50% !important;
+        }
+
+        .no-shrink img {
+          background-color: #f0f0f0;
+          width: 35px;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .mobile-links a {
+        line-height: 30px !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-raw>
+    <!--Header -->
+  </mj-raw>
+
+  <mj-body background-color="white">
+
+    <mj-section background-color="white" padding="5px">
+      <mj-column>
+        <mj-image src="assets/logo.png" alt="Click Me" href="https://www.vedgenutrition.com/" />
+        <mj-divider border-color="#2bb673" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!--Hero Text-->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-text font-size="18px" line-height="50px" padding="0px 30px">
+          Dear Valued Vedge Customer,
+        </mj-text>
+
+        <mj-text font-size="14px" line-height="16px" padding="0px 30px">
+          Ready to elevate your nutrition? Discover the convenience and savings of Vedge's <span style="text-decoration: underline; font-style: italic;">Monthly Subscription</span>!
+        </mj-text>5
+        <mj-text font-size="14px" line-height="16px" padding="0px 30px">
+          <br>Subscribing to our monthly delivery service is all about convenience, savings, and never missing out on your favorite plant protein.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-button background-color="#2bb673" width="250px" color="white" font-size="16px" href="https://www.vedgenutrition.com/products/organic-plant-based-protein-1" align="center">
+          Subscribe Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Images -->
+    </mj-raw>
+
+    <mj-section padding="0">
+      <mj-column width="50%">
+        <mj-image src="assets/Protein1.jpg" alt="Image 1" />
+      </mj-column>
+      <mj-column width="50%" padding="20px">
+        <mj-text font-weight="bold" align="center" line-height="15px" padding-top="0">WHY SUBSCRIBE?
+        </mj-text>
+        <mj-text align="center" line-height="15px" padding-top="0"><br> <span style="text-decoration:none ; font-style: italic; color: #2bb673;">CONSISTENCY:</span><br> Ensure you never run out of your essential protein source.
+        </mj-text>
+
+        <mj-text align="center" line-height="15px" padding-top="0"><br> <span style="text-decoration:none ; font-style: italic; color: #2bb673;">COST SAVINGS:</span><br> Enjoy exclusive discounts and special offers as a subscriber.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Images 2-->
+    </mj-raw>
+
+    <mj-section padding="0">
+      <mj-column width="50%" padding="20px">
+        <mj-text font-weight="bold" align="center" line-height="15px" padding-top="0">HOW IT HELPS YOU:
+        </mj-text>
+        <mj-text align="center" line-height="15px" padding-top="0"><br> <span style="text-decoration:none ; font-style: italic;color: #2bb673;">CONTINUOUS RESULTS: </span><br> Maintain your protein intake and enjoy better results.
+        </mj-text>
+
+        <mj-text align="center" line-height="15px" padding-top="0"><br> <span style="text-decoration:none ; font-style: italic;color: #2bb673;">NUTRITION ON DEMAND:</span><br> Enjoy exclusive discounts and special offers as a subscriber.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="assets/Protein2.jpg" alt="Image 1" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Stretch Img -->
+    </mj-raw>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image href="https://www.vedgenutrition.com/" src="assets/Stretch.jpg" alt="Image 1" />
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+    <mj-section padding="0" background-color="#2bb673">
+      <mj-column padding="20px">
+        <mj-text font-weight="bold" align="center" line-height="15px" padding-top="0" color="white">MANAGING YOUR SUBSCRIPTION IS A BREEZE:
+        </mj-text>
+        <mj-text align="center" line-height="15px" color="white" padding-top="0"><br> <span style="text-decoration:none ; font-style: italic;">FLEXIBLE DELIVERIES: </span><br> Choose your delivery frequency (monthly, bi-monthly, or quarterly).
+        </mj-text>
+        <mj-text align="center" line-height="15px" color="white" padding-top="0"><br> <span style="text-decoration:none ; font-style: italic;">REALTIME UPDATES:</span><br> Adjust your order, pause, or cancel at your convenience.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0 20px" background-color="#2bb673">
+      <mj-column>
+        <mj-button background-color="white" width="250px" color="black" font-size="16px" href="https://www.vedgenutrition.com/products/organic-plant-based-protein-1" align="center">
+          More Info
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-raw>
+      <!-- SHOP REWARDS LERN RECIPES -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="20px 0 10px">
+      <mj-group>
+        <mj-column padding="0" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/collections/shop-all-1" src="assets/Protein4.jpg" alt="First Spice" />
+          <mj-text font-weight="bold" align="center" line-height="15px" padding-top="10px">SHOP ↑
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding="0 " css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/pages/loyalty-rewards" src="assets/Protein3.jpg" alt="Second Spice" />
+          <mj-text font-weight="bold" align="center" line-height="15px" padding-top="10px">REWARDS ↑</mj-text>
+
+        </mj-column>
+
+        <mj-column padding="0" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/pages/about" src="assets/Protein5.jpg" alt="Third Spice" />
+          <mj-text font-weight="bold" align="center" line-height="15px" padding-top="10px">LEARN ↑</mj-text>
+
+        </mj-column>
+
+        <mj-column padding="0" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/Recipes.jpg" alt="Fourth Spice" />
+          <mj-text font-weight="bold" align="center" line-height="15px" padding-top="10px">RECIPES ↑</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Info IMG -->
+    </mj-raw>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image href="https://www.vedgenutrition.com/" src="assets/Info.png" alt="Footer Image Women" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Images -->
+    </mj-raw>
+
+    <mj-section padding="0">
+      <mj-group>
+        <mj-column width="50%">
+          <mj-image href="https://www.vedgenutrition.com/" src="assets/FooterImgLeft.jpg" alt="Image 1" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image href="https://www.vedgenutrition.com/" src="assets/FooterImgRight.jpg" alt="Footer Image Man" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Links -->
+    </mj-raw>
+
+    <mj-section padding="20px 0px 0px 0px" background-color="#222">
+      <mj-column>
+        <mj-text align="center" font-family="Helvetica, Arial" font-size="10px" color="#333333" css-class="mobile-links">
+          <a href="https://www.vedgenutrition.com/pages/terms-conditions" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">TERMS & CONDITIONS</a>
+          <a href="https://www.vedgenutrition.com/pages/privacy-policy" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">PRIVACY POLICY</a>
+          <a href="https://www.vedgenutrition.com/pages/return-policy" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">RETURNS</a>
+          <a href="https://www.vedgenutrition.com/pages/shipping-policy" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">SHIPPING</a>
+          <a href="https://www.vedgenutrition.com/pages/contact-1" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">CONTACT</a>
+          <a href="https://www.vedgenutrition.com/pages/faqs-1" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">FAQ</a>
+          <mj-text align="center" font-family="Helvetica, Arial" font-size="10px" color="#333333" css-class="mobile-links">
+            <a href="https://www.vedgenutrition.com/" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link"><br> &#x260E; +1-888-902-4319</a>
+            <a href="https://www.vedgenutrition.com/" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link"><br>SUPPORT@VEDGENUTRITION.COM</a>
+            <a href="https://www.vedgenutrition.com/pages/wholesale-partners" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">BECOME A WHOLESALE PARTNER</a>
+          </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+
+    <mj-section background-color="#222" padding="0px">
+      <mj-column padding="12px">
+        <mj-divider border-color="grey" border-width="1px" border-style="solid" padding="10px"></mj-divider>
+        <mj-text font-size="9px" color="grey" align="center">
+          *These statements have not been evaluated by the food and drug administration. This product is not intended to diagnose, treat, cure or prevent any disease. Users’ reviews reflect the opinions of the individual user, not the company. Individuals’ experiences may vary. Users’ comments about the benefits they attribute to Vedge Nutrition's products do not necessarily reflect the views of the company. Disclaimer – the results may vary from person to person.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#222" padding="0px 0 15px">
+      <mj-column padding="0">
+        <mj-text font-size="10px" align="center" color="grey">
+          <a href="https://www.vedgenutrition.com/account/login?return_url=%2Faccount" class="footer-links" style="color: grey;">Unsubscribe</a> | <a href="https://www.vedgenutrition.com/account/login?return_url=%2Faccount" class="footer-links" style="color: grey;">Manage Your Email Preferences</a>
+        </mj-text>
+        <mj-text font-size="10px" color="grey" align="center">
+          &copy; Copyright 2021 © Vedge Nutrition all rights reserved.<br>Vedge Nutrition Headquarters
+          711 Koehler Avenue, STE 3, Ronkonkoma NY 11779
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
