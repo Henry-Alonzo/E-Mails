@@ -1,0 +1,362 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-image padding="0" />
+      <mj-text padding="0" />
+      <mj-all font-family="Helvetica,Arial" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .responsive-column {
+          width: 50% !important;
+        }
+
+        .no-shrink img {
+          background-color: #f0f0f0;
+          width: 35px;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .mobile-links a {
+        line-height: 30px !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-raw>
+    <!--Header, Logo Links Icon -->
+  </mj-raw>
+
+  <mj-body background-color="white">
+
+    <mj-section background-color="white" padding="5px">
+      <mj-column>
+        <mj-image src="assets/Nutrition.png" alt="Click Me" href="https://www.vedgenutrition.com/" />
+        <mj-divider border-color="#2bb673" border-width="1px" />
+        <mj-text align="center" font-family="Helvetica, Arial" font-size="16px" color="#036c3c" padding="0px 0px 0px 0px" css-class="mobile-links">
+          <a href="https://www.vedgenutrition.com/collections/best-sellers" style="text-decoration: none; color: #036c3c; margin-right: 12px;">Shop</a>
+          <a href="https://www.vedgenutrition.com/pages/loyalty-rewards" style="text-decoration: none; color: #036c3c; margin-right: 12px;">Rewards</a>
+          <a href="https://www.vedgenutrition.com/blogs/reel-recipes" style="text-decoration: none; color: #036c3c; margin-right: 12px;">Recipes</a>
+          <a href="https://www.vedgenutrition.com/pages/about" style="text-decoration: none; color: #036c3c; margin-right: 12px;">Learn</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-image src="assets/23.png" href="https://www.vedgenutrition.com/products/turmeric" alt="Stickers for any budget" width="30px" padding="0px 0px 10px 0px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Turmeric + Images -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="0px 0 14px 0">
+      <mj-column>
+        <mj-text align="center" font-size="24px" color="#036c3c" padding-bottom="0px" text-transform="uppercase" font-style="italic" font-weight="bold">Turmeric +</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-group>
+        <mj-column>
+          <mj-image src="assets/Women.jpg" href="https://www.vedgenutrition.com/products/turmeric" alt="Stickers for any budget" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="assets/Man.jpg" href="https://www.vedgenutrition.com/products/turmeric" alt="Stickers for any budget" />
+          </mjcolumn>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Section 1 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column css-class="text-column">
+          <mj-text align="center" padding="15px">
+            <div style="font-size: 20px; font-weight: bold;">
+              <a href="https://www.vedgenutrition.com/products/turmeric" style="text-decoration: none; color:#ff914d;">ANTI-INFLAMMATORY</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="black" font-size="14px" align="left" padding="5px">
+            <div class="center-text" style="line-height: 1.2;"> Turmeric, Ashwagandha and Rhodiola Rosea have been shown to be potent anti-inflammatory ingredients that help maintain healthy inflammation responses.
+            </div>
+          </mj-text>
+
+          <mj-button align="center" padding="10px" background-color="#012f1a" color="white" href="https://www.vedgenutrition.com/products/turmeric">
+            <div class="centered-text" style="font-size: 14px; ">
+              TURMERIC +
+            </div>
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-image href="https://www.vedgenutrition.com/products/turmeric" src="assets/Vitamins1.png" height="210px" width="210px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Section 2 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column>
+          <mj-image href="https://www.vedgenutrition.com/products/turmeric" src="assets/22.png" height="210px" width="210px" />
+        </mj-column>
+
+        <mj-column css-class="text-column">
+          <mj-text padding="15px">
+            <div class="center-text" align="center" style="font-size: 20px; font-weight: bold;">
+              <a href="https://www.vedgenutrition.com/products/turmeric" style="text-decoration: none; color:#ff914d;">BOOSTS STRESS TOLERANCE</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="black" padding="5px" font-size="14px">
+            <div class="center-text" align="left" style="line-height: 1.2;"> As adaptogens, all three active ingredients have been shown to help counteract the adverse effects of everyday stress.</div>
+          </mj-text>
+
+          <mj-button align="center" background-color="#012f1a" color="white" href="https://www.vedgenutrition.com/blogs/healthyhabits">
+            <div class="centered-text" style="font-size: 14px; ">
+              BLOG
+            </div>
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Section 3 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column css-class="text-column">
+          <mj-text align="center" padding="15px">
+            <div style="font-size: 20px; font-weight: bold;">
+              <a href="https://www.vedgenutrition.com/products/turmeric" style="text-decoration: none; color:#ff914d;">PROMOTES HEALTHY JOINTS</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="black" align="left" padding="5px" font-size="14px">
+            <div class="center-text" style="line-height: 1.2;"> Turmeric, Ashwagandha and Rhodiola Rosea work synergistically together to promote overall joint health and mobility.
+            </div>
+          </mj-text>
+
+          <mj-button align="center" background-color="#012f1a" color="white" href="https://www.facebook.com/groups/vedgecommunity/">
+            <div class="centered-text" style="font-size: 14px; ">
+              OUR COMMUNITY
+            </div>
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-image href="https://www.vedgenutrition.com/products/turmeric" src="assets/24.png" height="210px" width="210px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Section 4 -->
+    </mj-raw>
+
+    <mj-section background-color="white">
+      <mj-group>
+        <mj-column>
+          <mj-image href="https://www.vedgenutrition.com/products/turmeric" src="assets/Vitamins2.png" height="210px" width="210px" />
+        </mj-column>
+
+        <mj-column css-class="text-column">
+          <mj-text padding="15px">
+            <div class="center-text" align="center" style="font-size: 20px; font-weight: bold;">
+              <a href="https://www.vedgenutrition.com/products/turmeric" style="text-decoration: none; color:#ff914d;">PROMOTES HEART HEALTH</a>
+            </div>
+          </mj-text>
+
+          <mj-text color="black" padding="5px" font-size="14px">
+            <div class="center-text" align="left" style="line-height: 1.2;"> The properties of all three ingredients support the overall health of the cardiovascular system and help maintain healthy cholesterol levels.</div>
+          </mj-text>
+
+          <mj-button align="center" background-color="#012f1a" color="white" href="https://www.vedgenutrition.com/pages/quiz">
+            <div class="centered-text" style="font-size: 14px; ">
+              QUIZ
+            </div>
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Spices and Images -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="20px 0 15px 0">
+      <Mj-column>
+        <mj-text>
+          <div class="center-text" align="center" style="font-size: 20px; font-weight: bold;">
+            <a href="https://www.vedgenutrition.com/products/turmeric" style="text-decoration: none; color:#ff914d;">MORE THAN JUST JOINT HEALTH</a>
+          </div>
+        </mj-text>
+      </Mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0 10px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" color="#036c3c" padding-bottom="0px" text-transform="uppercase" font-style="italic" font-weight="bold">Turmeric +</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="white" padding="0 0 30px">
+      <mj-group>
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/1Spice.png" alt="First Spice" />
+          <mj-text font-weight="bold" align="left" line-height="15px" padding-top="0">TURMERIC EXTRACT
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/2Spice.png" alt="Second Spice" />
+          <mj-text font-weight="bold" align="left" line-height="15px" padding-top="0">ASHWAGANDHA ROOT</mj-text>
+
+        </mj-column>
+
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/3Spice.png" alt="Third Spice" />
+          <mj-text font-weight="bold" align="left" line-height="15px" padding-top="0">RHODIOLA ROSEA</mj-text>
+
+        </mj-column>
+
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/4Spice.png" alt="Fourth Spice" />
+          <mj-text font-weight="bold" align="left" line-height="15px" padding-top="0">BLACK PEPPER EXTRACT</mj-text>
+
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Images Above Recipes-->
+    </mj-raw>
+
+    <mj-section padding="0">
+      <mj-group>
+        <mj-column>
+          <mj-image src="assets/Fortune3.jpg" href="https://www.vedgenutrition.com/products/turmeric" alt="Stickers for any budget" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="assets/Man2.jpg" href="https://www.vedgenutrition.com/products/turmeric" alt="Stickers for any budget" />
+          </mjcolumn>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!--Footer Image-->
+    </mj-raw>
+    <mj-section padding="0">
+      <mj-group>
+        <mj-column>
+          <mj-image src="assets/Vitamins4.png" href="https://www.vedgenutrition.com/products/turmeric" alt="Stickers for any budget" />
+          </mjcolumn>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- More Recipes -->
+    </mj-raw>
+
+    <mj-section background-color="white" padding="20px 0 15px 0">
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-weight="bold" padding-bottom="0px">Healthy Recipes</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0 0 30px">
+      <mj-group>
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/Recipe.png" alt="Recipe" />
+          <mj-text align="left" padding-top="2px">REAL COOKIE DOUGH NICE CREAM! </mj-text>
+          <mj-divider border-color="grey" border-width="1px" border-style="solid" padding="10px"></mj-divider>
+        </mj-column>
+
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/Recipe2.png" alt="Recipe" />
+          <mj-text align="left" padding-top="2px">HEALTHY VEGAN CHOCOLATE SHAKE! </mj-text>
+          <mj-divider border-color="grey" border-width="1px" border-style="solid" padding="10px"></mj-divider>
+        </mj-column>
+
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/Recipe3.png" alt="Recipe" />
+          <mj-text align="left" padding-top="2px">NO BAKE COOKIE DOUGH PROTEIN BAR!</mj-text>
+          <mj-divider border-color="grey" border-width="1px" border-style="solid" padding="10px"></mj-divider>
+        </mj-column>
+
+        <mj-column padding="0 10px" css-class="responsive-column">
+          <mj-image href="https://www.vedgenutrition.com/blogs/reel-recipes" src="assets/Recipe4.png" alt="Recipe" />
+          <mj-text align="left" padding-top="2px">YUMMY CHOCOLATE PROTEIN PUDDING!</mj-text>
+          <mj-divider border-color="grey" border-width="1px" border-style="solid" padding="10px"></mj-divider>
+
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+
+    <mj-raw>
+      <!-- Links -->
+    </mj-raw>
+
+    <mj-section padding="20px 0px 0px 0px" background-color="#222">
+      <mj-column>
+        <mj-text align="center" font-family="Helvetica, Arial" font-size="10px" color="#333333" css-class="mobile-links">
+          <a href="https://www.vedgenutrition.com/pages/terms-conditions" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">TERMS & CONDITIONS</a>
+          <a href="https://www.vedgenutrition.com/pages/privacy-policy" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">PRIVACY POLICY</a>
+          <a href="https://www.vedgenutrition.com/pages/return-policy" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">RETURNS</a>
+          <a href="https://www.vedgenutrition.com/pages/shipping-policy" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">SHIPPING</a>
+          <a href="https://www.vedgenutrition.com/pages/contact-1" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">CONTACT</a>
+          <a href="https://www.vedgenutrition.com/pages/faqs-1" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">FAQ</a>
+          <mj-text align="center" font-family="Helvetica, Arial" font-size="10px" color="#333333" css-class="mobile-links">
+            <a href="https://www.vedgenutrition.com/" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link"><br> &#x260E; +1-888-902-4319</a>
+            <a href="https://www.vedgenutrition.com/" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link"><br>SUPPORT@VEDGENUTRITION.COM</a>
+            <a href="https://www.vedgenutrition.com/pages/wholesale-partners" style="text-decoration: none; color: white; margin-right: 12px;" class="green-link">BECOME A WHOLESALE PARTNER</a>
+          </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+
+    <mj-section background-color="#222" padding="0px">
+      <mj-column padding="12px">
+        <mj-divider border-color="grey" border-width="1px" border-style="solid" padding="10px"></mj-divider>
+        <mj-text font-size="9px" color="grey" align="center">
+          *These statements have not been evaluated by the food and drug administration. This product is not intended to diagnose, treat, cure or prevent any disease. Users’ reviews reflect the opinions of the individual user, not the company. Individuals’ experiences may vary. Users’ comments about the benefits they attribute to Vedge Nutrition's products do not necessarily reflect the views of the company. Disclaimer – the results may vary from person to person.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#222" padding="0px 0 15px">
+      <mj-column padding="0">
+        <mj-text font-size="10px" align="center" color="grey">
+          <a href="https://www.vedgenutrition.com/account/login?return_url=%2Faccount" class="footer-links" style="color: grey;">Unsubscribe</a> | <a href="https://www.vedgenutrition.com/account/login?return_url=%2Faccount" class="footer-links" style="color: grey;">Manage Your Email Preferences</a>
+        </mj-text>
+        <mj-text font-size="10px" color="grey" align="center">
+          &copy; Copyright 2021 © Vedge Nutrition all rights reserved.<br>Vedge Nutrition Headquarters
+          711 Koehler Avenue, STE 3, Ronkonkoma NY 11779
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
